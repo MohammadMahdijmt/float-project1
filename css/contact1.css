@@ -167,8 +167,9 @@ input[type="submit"] {
 /* mobile media */
 @media (max-width: 767px) {
   .header-logo {
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
+    padding: 5px;
   }
   .ulli {
     width: 100%;
@@ -180,6 +181,11 @@ input[type="submit"] {
   .ulli li a {
     padding: 5px;
     width: 100%;
+  }
+  .logoo a img{
+    float: left;
+    padding: 5px;
+    margin: 5px;
   }
   .contact-main {
     padding: 0 5px;
@@ -198,7 +204,7 @@ input[type="submit"] {
 /* tablet */
 @media (min-width: 768px) and (max-width: 1023px) {
   .header-logo {
-    padding: 0 10px;
+    padding: 0 50px;
   }
   .contact-main {
     padding: 0 10px;

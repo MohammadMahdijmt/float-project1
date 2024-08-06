@@ -77,8 +77,9 @@ body {
   width: 50%;
 }
 .image {
-  width: 100%;
-  height: auto;
+
+  width:300px;
+  height: 300px;
   border-radius: 50%;
 }
 .bgurl {
@@ -118,4 +119,52 @@ body {
   text-align: center;
   padding: 40px;
   font-size: 20px;
+}
+/* mobile media */
+@media (max-width: 767px) {
+  .header-logo{
+    width: 100%;
+    text-align: center;
+  }
+  .olli {
+    width: 100%;
+  }
+  .olli li {
+    width: 100%;
+    text-align: center;
+  }
+  .olli li a {
+    padding: 5px;
+    width: 100%;
+  }
+  .left{
+    width: 100%;
+    padding: 20px;
+  }
+  .top-image{
+    padding: 0 25px;
+  }
+  .top-image img{
+    width: 250px;
+    height: 250px;
+  }
+  .box1 img{
+    width: 120px;
+  }
+
+}
+/* tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header{
+    padding: 0 10px;
+  }
+}
+/* 4k */
+@media (min-width: 2560px) {
+  body{
+    font-size: 2rem;
+  }
+  .container{
+    max-width: 1500px;
+  }
 }

@@ -89,7 +89,6 @@ color: silver;
 }
 .hero {
   width: 100%;
-  height: auto;
   background:linear-gradient(rgba(0, 0, 0, 0.61), rgba(0, 0, 0, 0.603)),
     url(../media/main.jpg) no-repeat center 30%;
   background-size: cover;
@@ -199,22 +198,21 @@ color: silver;
   .logo-header{
     width: 100%;
     text-align: center;
+  
   }
   .logo-header a h1{
     text-align: center;
-    padding: 0px 40px;
+    padding: 0 45px;
   }
   .logoo{
-    width: 100%;
+    width: 50%;
   }
   .logoo a{
     width: 50%;
   }
   .logoo a img{
     text-align: center;
-    padding: 0 80px;
   }
-
   .ulli {
     width: 100%;
   }
@@ -225,15 +223,19 @@ color: silver;
   .ulli li a {
     padding: 10px 0;
   }
+  .better-control{
+    padding:80px 0;
+  }
+  .better-control p{
+    padding: 5px 20px;
+  }
   .history-left {
     width: 100%;
-    display: none;
+    /* display: none; */
   }
   .history-right {
     width: 100%;
-
     border: 1px solid rgba(255, 255, 255, 0.456);
-    height: auto;
   }
   .history-right-content h2 {
     font-size: large;
